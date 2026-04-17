@@ -3,9 +3,28 @@ cv:
   label: Research Scientist
   location: Nijmegen, The Netherlands
   image: ""
-  summary: Research Scientist at the Max Planck Institute for Psycholinguistics (Multimodal Language Department), working on multimodal communication and behaviour, representation learning, analysis, and generation.
+  summary: Research Scientist at the Max Planck Institute for Psycholinguistics, working on multimodal communication and behaviour, with a focus on representation learning, analysis, and generation.
 
   sections:
+    General Information:
+      - name: Full Name
+        value: Esam Ghaleb
+      - name: Affiliation
+        value: Max Planck Institute for Psycholinguistics (Multimodal Language Department)
+      - name: Languages
+        value: Arabic (native), English (fluent), Turkish (fluent), Dutch (upper-intermediate—B2)
+    Languages:
+      - name: Arabic
+        summary: Native
+
+      - name: English
+        summary: Fluent
+
+      - name: Turkish
+        summary: Fluent
+
+      - name: Dutch
+        summary: Upper-intermediate (B2)
     Experience:
       - company: Max Planck Institute for Psycholinguistics
         position: Research Scientist, Multimodal Language Department
@@ -32,8 +51,8 @@ cv:
         highlights:
           - Work package leader for the EU H2020 ProCare4Life project.
 
-      - company: Maastricht University, Cognitive Systems Group
-        position: Doctoral Researcher
+      - company: Maastricht University
+        position: Doctoral Researcher, Cognitive Systems Group
         location: Maastricht, The Netherlands
         start_date: 2016-03
         end_date: 2020-02
@@ -46,7 +65,7 @@ cv:
         location: Istanbul, Turkey
         start_date: 2013-07
         end_date: 2016-02
-        summary: Research on computer vision and HCI, including face recognition and tracking, and retrieval of faces across age.
+        summary: Research on computer vision and HCI, including face recognition, tracking, and retrieval of faces across age.
 
       - company: Karlsruhe Institute of Technology (KIT), CVHCI Lab
         position: Research Intern
@@ -55,7 +74,7 @@ cv:
         end_date: 2014-08
         summary: Built and annotated the Accio dataset for face track retrieval in movies (Harry Potter).
         highlights:
-          - Returned in Summer 2015 for thesis-related research.
+          - Revisited the lab in Summer 2015 for thesis research.
 
     Education:
       - institution: Maastricht University
@@ -90,23 +109,27 @@ cv:
     Funding:
       - title: NWO Open Competition Domain Science (XS)
         date: 2025
-        awarder: Netherlands Organisation for Scientific Research (NWO)
+        awarder: Netherlands Organisation for Scientific Research (NWO), The Netherlands
+        amount: To be added
         summary: 'PI for the project titled: “Grounded Gesture Generation in Context: Object- and Interaction-Aware Generative AI Models of Language Use”.'
 
       - title: Donders Research Stimulation Fund
         date: 2025
-        awarder: Donders Institute
-        summary: Co-applicant with Sara Bögels (PI) and Iris Hendrickx on temporal dynamics of communicative effort reduction and alignment.
+        awarder: Donders Institute, Nijmegen, The Netherlands
+        amount: To be added
+        summary: Co-applicant for a project with Sara Bögels (PI) and Iris Hendrickx on the temporal dynamics of communicative effort reduction and alignment.
 
       - title: Scholarships (Yemen & Turkey Ministries of Higher Education)
         date: 2007-2013
         awarder: Yemen & Turkey Ministries of Higher Education
-        summary: Scholarships supporting BSc and MSc studies (approx. USD 60,000 total).
+        amount: Approx. USD 60,000 total
+        summary: Scholarships supporting B.Sc. and M.Sc. studies.
 
       - title: Internship Grant, Istanbul Technical University (KIT Visit)
         date: 2014
         awarder: Istanbul Technical University
-        summary: Grant supporting summer research internship at KIT, Germany.
+        amount: To be added
+        summary: Grant supporting a summer research internship at Karlsruhe Institute of Technology, Germany.
 
     Awards:
       - title: Nomination for Best Paper Award (IJCB)
@@ -116,35 +139,25 @@ cv:
 
       - title: Ranked 1st, International Challenge on Biometric Recognition in the Wild (ICB-RW)
         date: 2016
+        awarder: International Conference on Biometrics
 
       - title: Graduated in the Top 0.2% Nationwide (High School), Yemen
         date: 2006
+        awarder: National ranking, Yemen
 
     Talks:
       - title: Speech and Gesture Interaction in Face-to-Face Dialogue (analysis and generation)
         date: 2025-09
-        location: Utrecht University (NLP@U)
+        awarder: Utrecht University (NLP@U)
         summary: Invited talk.
 
       - title: Learning Representations in Dialogue Through Contrastive Learning
         date: 2024-10
-        location: SignLab Amsterdam, University of Amsterdam
+        awarder: SignLab Amsterdam, University of Amsterdam
         summary: Invited talk.
 
       - title: Understanding and Modelling Multimodal Dialogue Coordination
         date: 2024-06
-        location: Tilburg University
+        awarder: Tilburg University
         summary: Invited talk.
 
-    Languages:
-      - name: Arabic
-        summary: Native
-
-      - name: English
-        summary: Fluent
-
-      - name: Turkish
-        summary: Fluent
-
-      - name: Dutch
-        summary: Upper-intermediate (B2)

@@ -1,5 +1,12 @@
 {% comment %}
-  Unified talks entry renderer for both formats
+  Unified entry renderer for awards, funding, and talks
+  Optional fields:
+  - title
+  - date
+  - awarder
+  - amount
+  - summary
+  - url
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -37,6 +44,10 @@
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
             {% endif %}
 
+            {% if entry.amount %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><strong>Amount:</strong> {{ entry.amount }}</h6>
+            {% endif %}
+
             {% if entry.summary %}
               <p class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
             {% endif %}
@@ -53,6 +64,10 @@
 
             {% if entry.awarder %}
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+
+            {% if entry.amount %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><strong>Amount:</strong> {{ entry.amount }}</h6>
             {% endif %}
 
             {% if entry.summary %}
