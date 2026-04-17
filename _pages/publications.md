@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: An updated list of publications can be found in [my Google Scholar profile](https://scholar.google.com/citations?user=TqP9GTsAAAAJ&hl=en).
+description: An updated list of publications can be found in my Google Scholar profile.
 nav: true
 nav_order: 2
 ---
