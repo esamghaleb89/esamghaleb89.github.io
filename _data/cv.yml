@@ -3,7 +3,7 @@ cv:
   label: Research Scientist
   location: Nijmegen, The Netherlands
   image: ""
-  summary: Research Scientist at the Max Planck Institute for Psycholinguistics, working on multimodal communication and behaviour, with a focus on representation learning, analysis, and generation.
+  # summary: Research Scientist at the Max Planck Institute for Psycholinguistics, working on multimodal communication and behaviour, with a focus on representation learning, analysis, and generation.
 
   sections:
     General Information:
@@ -13,6 +13,7 @@ cv:
         value: Max Planck Institute for Psycholinguistics (Multimodal Language Department)
       - name: Languages
         value: Arabic (native), English (fluent), Turkish (fluent), Dutch (upper-intermediate—B2)
+  
     Languages:
       - name: Arabic
         summary: Native
@@ -25,6 +26,7 @@ cv:
 
       - name: Dutch
         summary: Upper-intermediate (B2)
+
     Experience:
       - company: Max Planck Institute for Psycholinguistics
         position: Research Scientist, Multimodal Language Department
