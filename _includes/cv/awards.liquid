@@ -1,6 +1,7 @@
 {% comment %}
   Unified entry renderer for awards, funding, and talks
-  Optional fields:
+
+  Supported fields:
   - title
   - date
   - awarder
@@ -31,6 +32,7 @@
               </tbody>
             </table>
           </div>
+
           <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
             {% if entry.url %}
               <h6 class="title font-weight-bold ml-1 ml-md-4">
@@ -45,7 +47,9 @@
             {% endif %}
 
             {% if entry.amount %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><strong>Amount:</strong> {{ entry.amount }}</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+                <strong>Amount:</strong> {{ entry.amount }}
+              </h6>
             {% endif %}
 
             {% if entry.summary %}
@@ -67,7 +71,9 @@
             {% endif %}
 
             {% if entry.amount %}
-              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><strong>Amount:</strong> {{ entry.amount }}</h6>
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">
+                <strong>Amount:</strong> {{ entry.amount }}
+              </h6>
             {% endif %}
 
             {% if entry.summary %}
